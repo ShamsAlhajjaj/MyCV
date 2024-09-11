@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(52, 51, 48);
+    color: rgba(249, 209, 156, 0.76);
+}
+
+.image {
+        background-image: url("myPic.png");
+        background-color: #cccccc;
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+}
+
+a:visited {
+    color: rgb(133, 160, 200)
+  }
+.skillsContainer, .head{
+    display: flex;
+    
+}
+.languages{
+    margin-right: 50px;
+}
+.education,
+.project,
+.experience,
+.skills,
+.hobbies,
+.sammury
+{
+    display: none;
+}
+.educationTitle:hover + .education,
+.projectTitle:hover + .project,
+.experienceTitle:hover + .experience,
+.skillsTitle:hover + .skills,
+.hobbiesTitle:hover + .hobbies,
+.sammuryTitle:hover + .sammury
+
+{ 
+    display: block;
+  
+}
